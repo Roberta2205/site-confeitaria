@@ -9,6 +9,6 @@
 <br>
 <br>
 <img src="https://github.com/Roberta2205/site-confeitaria/blob/master/assets/foto%20site.png?raw=true">
-<img src="https://github.com/Roberta2205/site-confeitaria/blob/master/assets/foto%20site..png?raw=true>
+<img src="https://github.com/Roberta2205/site-confeitaria/blob/master/assets/foto%20site..png?raw=true">
 <img src="https://github.com/Roberta2205/site-confeitaria/blob/master/assets/foto%20site...png?raw=true">
-<img src="https://github.com/Roberta2205/site-confeitaria/blob/master/assets/foto%20site....png?raw=true">
+<img src="https://github.com/Roberta2205/site-confeitaria/blob/master/assets/foto%20site....png?raw=true"> 
