@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    background-color: rgb(236, 203, 223); 
+    padding: 10px; 
+}
+
+nav ul {
+    list-style-type: none; 
+    display: flex; 
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 41px;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #a64e8c; 
+    font-weight: bold; 
+    transition: color 0.3s;
+    font-size: x-large;
+
+}
+
+nav ul li a:hover {
+    color: #f9f9f9;
+}
+
+h1{
+    margin: 300px 0px 50px 0px;
+    color: #703b60;
+    font-size: xx-large;
+}
+
+.p-paragrafo-1 {
+    color: #841750; 
+    font-weight: bold;
+    line-height: 1.5; 
+    margin: 25px 100px 200px 550px;
+    font-size: larger;
+    background-color: #f8d0ec;
+    border-radius: 18px;
+    padding: 20px;
+    max-width: 900px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between; 
+    margin: 20px 0px 300px 500px;
+    line-height: 20px;
+    max-width: 1000px;
+}
+
+.tab-content {
+    border: 5px solid #ffffff; 
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1; 
+    margin: 0px 30px 0px 0px;
+    text-align: center;
+    display: inline-block;
+    font-size: larger
+}
+
+h2 {
+    margin: 40px 0px 40px 0px;
+    color: #78145a;
+    font-size: xx-large;
+}
+
+.image-gallery {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 50px 0px 5px 0px;
+}
+
+.image-item {
+    width: calc(25% - 10px); 
+    margin: 10px; 
+    box-sizing: border-box; 
+    overflow: hidden;
+}
+
+.image-item img {
+    width: 100%; 
+    height: auto; 
+    max-height: 400px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 200px;
+    background-color: #f0bddf;
+    padding: 20px;
+    height: 600px;
+    width: 100%;
+    font-size: large;
+    font-style: italic;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center; 
+    gap: 100px;
+    margin-top: 20px; 
+}
+
+.contact-item {
+    text-align: center; 
+}
+
+.contact-item h2 {
+    margin-bottom: 10px; 
+}
+
+.contact-item a {
+    color: #4e0413; 
+    text-decoration: none; 
+}
+
+.contact-item a:hover {
+    text-decoration: underline; 
+}
+
+body {
+    background-image: url(https://img.freepik.com/fotos-gratis/close-up-de-uma-parede-texturizada-de-marmore-branco_53876-88524.jpg?t=st=1751058325~exp=1751061925~hmac=2762a78b379111bcf375a9fff6067ea3726180f8959e46f32f2d4bf5a95f464f);
+
+}
