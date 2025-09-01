@@ -4,20 +4,20 @@
 
 nav {
     display: flex; /* Exibe os botões em linha */
-    justify-content: center; /* Centraliza os botões horizontalmente */
-    align-items: center; /* Alinha os botões verticalmente ao centro */
-    margin: 20px 0; /* Adiciona margens ao redor do nav, se necessário */
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px 0; 
 }
 
 nav button {
-    margin: 0 20px; /* Define espaçamento horizontal entre os botões */
+    margin: 0 20px; 
     color: #a66693; 
     font-weight: bold; 
     transition: color 0.3s;
     font-size: x-large;
     border-radius: 15px;
     border: 1px solid #a66693;
-    padding: 10px 20px; /* Adiciona espaçamento interno para os botões */
+    padding: 10px 20px; 
     cursor: pointer;
 }
 
@@ -63,7 +63,8 @@ p {
 
 #bolinhos {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 20px auto; 
     line-height: 20px;
     max-width: 1000px; 
@@ -146,4 +147,33 @@ footer {
     top: 0;
 }
 
+.image-gallery {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin: 50px 7px 7px 7px;
+}
 
+.image-item img {
+    width: 100%; 
+    height: auto; 
+    max-height: 320px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    nav button {
+        font-size: medium; 
+        margin: 5px;
+    }
+
+    .image-item {
+        width: 100%; /* Cada bolinho vai ocupar toda a largura */
+        margin: 10px 0; /* Espaçamento entre os bolinhos */
+    }
+
+    #bolinhos {
+        display: block; /* Certifique-se de que ele ainda está em block em telas pequenas */
+    }
+}
