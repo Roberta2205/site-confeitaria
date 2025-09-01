@@ -6,3 +6,9 @@
 <br>
 <br>
 <h2> :notebook_with_decorative_cover: | O projeto ainda é simples, mas é um grande avanço para chegar cada vez mais perto do meu objetivo: me tornar uma grande desenvolvedora.</h2>
+<br>
+<br>
+<img src="https://github.com/Roberta2205/site-confeitaria/blob/master/assets/foto%20site.png?raw=true">
+<img src="https://github.com/Roberta2205/site-confeitaria/blob/master/assets/foto%20site..png?raw=true">
+<img src="https://github.com/Roberta2205/site-confeitaria/blob/master/assets/foto%20site...png?raw=true">
+<img src="https://github.com/Roberta2205/site-confeitaria/blob/master/assets/foto%20site....png?raw=true"> 
