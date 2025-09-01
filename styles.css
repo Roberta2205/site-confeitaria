@@ -1,85 +1,92 @@
 * {
-    box-sizing: border-box;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
+  font-family: "Libertinus Serif Display", system-ui;
 }
 
 nav {
-    background-color: rgb(236, 203, 223); 
-    padding: 10px; 
+    display: flex; /* Exibe os botões em linha */
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    align-items: center; /* Alinha os botões verticalmente ao centro */
+    margin: 20px 0; /* Adiciona margens ao redor do nav, se necessário */
 }
 
-nav ul {
-    list-style-type: none; 
-    display: flex; 
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 41px;
-}
-
-nav ul li a {
-    text-decoration: none; 
-    color: #a64e8c; 
+nav button {
+    margin: 0 20px; /* Define espaçamento horizontal entre os botões */
+    color: #a66693; 
     font-weight: bold; 
     transition: color 0.3s;
     font-size: x-large;
-
+    border-radius: 15px;
+    border: 1px solid #a66693;
+    padding: 10px 20px; /* Adiciona espaçamento interno para os botões */
+    cursor: pointer;
 }
 
-nav ul li a:hover {
-    color: #f9f9f9;
+nav button:hover {
+    color: #840f66;
 }
 
-h1{
-    margin: 300px 0px 50px 0px;
-    color: #703b60;
-    font-size: xx-large;
-}
 
-.p-paragrafo-1 {
-    color: #841750; 
-    font-weight: bold;
-    line-height: 1.5; 
-    margin: 25px 100px 200px 550px;
-    font-size: larger;
-    background-color: #f8d0ec;
-    border-radius: 18px;
+.titulo-quem-somos {
+    text-align: center; 
+    margin: 150px 0 20px 0;
+    color: #a25b91; 
     padding: 20px;
-    max-width: 900px;
 }
 
-.content {
-    display: flex;
-    justify-content: space-between; 
-    margin: 20px 0px 300px 500px;
-    line-height: 20px;
-    max-width: 1000px;
-}
-
-.tab-content {
-    border: 5px solid #ffffff; 
-    border-radius: 10px;
+h1 {
+    text-align: center; 
+    margin: 20px 0; 
+    color: #a25b91; 
     padding: 20px;
-    flex: 1; 
-    margin: 0px 30px 0px 0px;
-    text-align: center;
-    display: inline-block;
-    font-size: larger
 }
 
 h2 {
-    margin: 40px 0px 40px 0px;
-    color: #78145a;
-    font-size: xx-large;
+    color: #a25b91;
+    padding: 20px;
+}
+
+.quem-somos {
+    text-align: center; 
+    background-color: #cd93c2; 
+    font-size: 20px; 
+    max-width: 600px; 
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 15px;
+    color: #f9f9f9;
+}
+
+p {
+    font-size: 15px;
+    color: #6b1b53;
+}
+
+#bolinhos {
+    display: flex;
+    justify-content: center; 
+    margin: 20px auto; 
+    line-height: 20px;
+    max-width: 1000px; 
+    height: 100%;
+    transition: opacity 0.8s ease;
+}
+
+.tab-content {
+    border: 5px solid #a25b91; 
+    border-radius: 15px;
+    padding: 8px;
+    margin: 100px 30px;
+    text-align: center;
+    font-size: larger;
+    box-sizing: border-box;
+    flex: 1; 
 }
 
 .image-gallery {
     display: flex; 
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     justify-content: center; 
-    margin: 50px 0px 5px 0px;
+    margin: 50px 7px 7px 7px;
 }
 
 .image-item {
@@ -87,50 +94,56 @@ h2 {
     margin: 10px; 
     box-sizing: border-box; 
     overflow: hidden;
+    border: 3px solid #874a75;
+    border-radius: 20px;
 }
 
 .image-item img {
     width: 100%; 
     height: auto; 
-    max-height: 400px; 
+    max-height: 320px; 
     object-fit: cover;
     border-radius: 10px;
 }
 
 footer {
     margin-top: 200px;
-    background-color: #f0bddf;
-    padding: 20px;
-    height: 600px;
+    background-color: #ebc5e0;
+    padding: 45px 0;
+    height: 200px;
     width: 100%;
-    font-size: large;
-    font-style: italic;
-}
-
-.contact-container {
     display: flex;
-    justify-content: center; 
-    gap: 100px;
-    margin-top: 20px; 
+    flex-direction: column; 
+    align-items: center; 
 }
 
-.contact-item {
-    text-align: center; 
+.titulo-contatos {
+    color: #b46db1;
+    padding-bottom: 20px; 
 }
 
-.contact-item h2 {
-    margin-bottom: 10px; 
+.imagens-container {
+    display: flex; 
+    justify-content: center;
+    gap: 20px; 
 }
 
-.contact-item a {
-    color: #4e0413; 
-    text-decoration: none; 
+
+.imagem-wpp, .imagem-insta {
+    height: 60px; 
 }
 
-.contact-item a:hover {
-    text-decoration: underline; 
+.imagem-fundo {
+    position: fixed;
+    top: 0;
+    z-index: -1;
 }
-body {
-    background-image: url(https://img.freepik.com/fotos-gratis/close-up-de-uma-parede-texturizada-de-marmore-branco_53876-88524.jpg?t=st=1751058325~exp=1751061925~hmac=2762a78b379111bcf375a9fff6067ea3726180f8959e46f32f2d4bf5a95f464f);
 
+.img-marmore {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
 }
+
+
